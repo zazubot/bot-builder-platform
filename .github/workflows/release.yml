@@ -1,8 +1,8 @@
-name: Release new zazubot version
+name: Release new Typebot version
 
 on:
   push:
-    branchs: ["next"]
+    branchs: ["v*", "deploy"]
 
 jobs:
   build-amd:
