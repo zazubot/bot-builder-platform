@@ -50,13 +50,7 @@ export const leadGenerationTypebot: StartTypebot = {
             plainText: "Welcome to AA (Awesome Agency)",
           },
         },
-        {
-          id: "s7YqZTBeyCa4Hp3wN2j922c",
-          type: BubbleBlockType.IMAGE,
-          content: {
-            url: "https://media2.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=fe3852a3ihg8rvipzzky5lybmdyq38fhke2tkrnshwk52c7d&rid=giphy.gif&ct=g",
-          },
-        },
+  
         {
           id: "sbjZWLJGVkHAkDqS4JQeGow",
           type: InputBlockType.CHOICE,
