@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-<a href="https://typebot.io" target="_blank">
+<a href="https://zazubot.com" target="_blank">
   <img src="./.github/images/banner.png" alt="Typebot banner">
 </a>
 </p>
@@ -20,7 +20,7 @@ Typebot is an Fair Source chatbot builder. It allows you to create advanced chat
 <a href="https://github.com/baptistearno/typebot.io/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License">
 <a href="https://status.typebot.io"><img height="20px" src="https://betteruptime.com/status-badges/v1/monitor/a9kf.svg" alt="Uptime"></a>
 <a href="https://github.com/baptisteArno/typebot.io/issues/new?template=bug_report.md"><img src="https://img.shields.io/badge/Report a bug-Github-%231F80C0" alt="Report a bug"></a>
-<a href="https://typebot.io/discord"><img src="https://img.shields.io/badge/Join community-Discord-%23404EED" alt="Ask a question"></a>
+<a href="https://zazubot.com/discord"><img src="https://img.shields.io/badge/Join community-Discord-%23404EED" alt="Ask a question"></a>
 
 </p>
 
@@ -80,7 +80,7 @@ So you’ll be supporting fair source software and getting a great service! 💙
 
 You'll find a lot of resources to help you get started with Typebot in the [documentation](https://docs.zazubot.com/).
 
-- Have a question? Join the [Discord server](https://typebot.io/discord) and get instant help.
+- Have a question? Join the [Discord server](https://zazubot.com/discord) and get instant help.
 - Found a bug? [Create an issue](https://github.com/baptisteArno/typebot.io/issues/new)
 
 ## Self-hosting

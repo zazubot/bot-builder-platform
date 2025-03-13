@@ -5,7 +5,7 @@ import { appRouter } from "./appRouter";
 const openApiDocument = generateOpenApiDocument(appRouter, {
   title: "Chat API",
   version: "3.0.0",
-  baseUrl: "https://typebot.io/api",
+  baseUrl: "https://zazubot.com/api",
   docsUrl: "https://docs.zazubot.com/api-reference",
 });
 

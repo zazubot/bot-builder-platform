@@ -5,6 +5,7 @@ postedAt: "2025-01-08"
 cover: "/blog-assets/faq-chatbot/cover.avif"
 author: younes
 ---
+
 **What if you had a chatbot that could answer customer questions instantly?** Imagine a virtual assistant that boosts satisfaction, reduces workload for your support team, and drives conversions—all while staying online 24/7.
 
 That's exactly what an **FAQ chatbot can do for you**. It's not just another automation tool; it's an AI-driven assistant that redefines how businesses handle common questions, giving clear, helpful answers based on what users are really asking.
@@ -43,14 +44,14 @@ For an FAQ chatbot to work well, it needs a few key features:
 
 [**FAQ chatbots and live chat**](./livechat-vs-chatbot.mdx) **systems both help with customer support, but they're not the same:**
 
-| Feature | FAQ Chatbot | Live Chat System |
-| --- | --- | --- |
-| Response Time | Instant | Depends on when an agent is free |
-| Availability | 24/7 | Only available during work hours |
-| Scalability | Handles multiple queries simultaneously | Limited to how many agents are available |
-| Consistency | Highly consistent responses | Can change depending on the agent |
-| Complexity of Queries | Great for simple, common questions | Can handle complex, nuanced issues |
-| Personal Touch | Not as personal, but getting better with AI | High, with human empathy and problem-solving |
+| Feature               | FAQ Chatbot                                 | Live Chat System                             |
+| --------------------- | ------------------------------------------- | -------------------------------------------- |
+| Response Time         | Instant                                     | Depends on when an agent is free             |
+| Availability          | 24/7                                        | Only available during work hours             |
+| Scalability           | Handles multiple queries simultaneously     | Limited to how many agents are available     |
+| Consistency           | Highly consistent responses                 | Can change depending on the agent            |
+| Complexity of Queries | Great for simple, common questions          | Can handle complex, nuanced issues           |
+| Personal Touch        | Not as personal, but getting better with AI | High, with human empathy and problem-solving |
 
 ### Example of FAQ Chatbot
 
@@ -62,7 +63,7 @@ Using an FAQ chatbot can make customer support faster, easier, and more satisfyi
 
 ## Benefits of Using an FAQ Chatbot
 
-Adding an FAQ chatbot can completely change the way businesses handle customer interactions and support. **These AI tools bring a lot of [benefits](https://typebot.io/blog/benefits-ai-chatbot), from improving customer experience to making internal processes smoother.** So, what makes FAQ chatbots such a game-changer? Let's break it down.
+Adding an FAQ chatbot can completely change the way businesses handle customer interactions and support. **These AI tools bring a lot of [benefits](https://zazubot.com/blog/benefits-ai-chatbot), from improving customer experience to making internal processes smoother.** So, what makes FAQ chatbots such a game-changer? Let's break it down.
 
 ### Accelerating Response Times for Customers
 
@@ -112,15 +113,23 @@ On your dashboard, click the 'Create a Typebot' button to get started. **You'll 
 
 Typebot makes it easy to design your chatbot's flow with a simple drag-and-drop interface. **Here's how you can set up a basic FAQ chatbot step by step:**
 
-<Image src="/blog-assets/faq-chatbot/create-a-welcome-message-faq.gif" alt="How to create a welcome message" width="800px" height="472px" />
-
+<Image
+  src="/blog-assets/faq-chatbot/create-a-welcome-message-faq.gif"
+  alt="How to create a welcome message"
+  width="800px"
+  height="472px"
+/>
 
 1. Kick things off with a friendly 'Welcome' message—use a text bubble to greet users and let them know what the bot can do.
 2. Add an input block so users can type in their questions.
 3. Set up decision trees with condition blocks to sort user questions and give the right answers.
 
-<Image src="/blog-assets/faq-chatbot/example-chatbot-branches.avif" alt="Example Chatbot Branches" width="696px" height="593px" />
-
+<Image
+  src="/blog-assets/faq-chatbot/example-chatbot-branches.avif"
+  alt="Example Chatbot Branches"
+  width="696px"
+  height="593px"
+/>
 
 4. Add response blocks to store your FAQ answers.
 
@@ -185,7 +194,10 @@ In other words, it helps your chatbot stay accurate and up-to-date without const
 Here's how to connect your Typebot FAQ chatbot to a knowledge base using Flowise. **Don't worry—it's easier than it sounds!**
 
 <Info>
-	Want a detailed, step-by-step walkthrough of building an AI chatbot with a custom knowledge base? [Check out our full tutorial on Typebot's blog](./build-ai-chatbot-with-custom-knowledge-base.mdx) for comprehensive guidance!
+  Want a detailed, step-by-step walkthrough of building an AI chatbot with a
+  custom knowledge base? [Check out our full tutorial on Typebot's
+  blog](./build-ai-chatbot-with-custom-knowledge-base.mdx) for comprehensive
+  guidance!
 </Info>
 
 #### Set Up Your Knowledge Base
@@ -194,8 +206,12 @@ Here's how to connect your Typebot FAQ chatbot to a knowledge base using Flowise
 
 #### Deploy Flowise
 
-<Image src="/blog-assets/faq-chatbot/configure-flowise-deployment-render.avif" alt="Configure Flowise Deployment Render" width="1423px" height="327px" />
-
+<Image
+  src="/blog-assets/faq-chatbot/configure-flowise-deployment-render.avif"
+  alt="Configure Flowise Deployment Render"
+  width="1423px"
+  height="327px"
+/>
 
 Next, set up Flowise on a cloud platform like Render.com. You'll need to create a web service. Just create a new web service, and paste the link of Flowise Github.
 
@@ -210,8 +226,12 @@ Now, design a document processing pipeline in Flowise. **Here's what you'll need
 
 The final flow should look like this:
 
-<Image src="/blog-assets/faq-chatbot/flowise-complete-flow.avif" alt="Flowise Complete Flow" width="1492px" height="1238px" />
-
+<Image
+  src="/blog-assets/faq-chatbot/flowise-complete-flow.avif"
+  alt="Flowise Complete Flow"
+  width="1492px"
+  height="1238px"
+/>
 
 #### Configure the Flowise API
 
@@ -223,8 +243,12 @@ In your Typebot flow, add an API block to link it to the Flowise endpoint. **Set
 
 #### Implement the Conversation Loop
 
-<Image src="/blog-assets/faq-chatbot/typebot-flow-using-flowise.avif" alt="Typebot Flow Using Flowise" width="1300px" height="741px" />
-
+<Image
+  src="/blog-assets/faq-chatbot/typebot-flow-using-flowise.avif"
+  alt="Typebot Flow Using Flowise"
+  width="1300px"
+  height="741px"
+/>
 
 **Set up your Typebot flow to take user input, send it to the Flowise API, and show the response.** Add a loop so users can ask follow-up questions and keep the conversation going.
 
