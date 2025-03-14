@@ -2,7 +2,8 @@ name: Release new Typebot version
 
 on:
   push:
-    branchs: ["deploy"]
+    branches:
+      - latest
 
 jobs:
   build-amd:
