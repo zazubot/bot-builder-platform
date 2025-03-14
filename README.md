@@ -7,21 +7,7 @@
 <br />
 
 <p align="center">
-Typebot is an Fair Source chatbot builder. It allows you to create advanced chatbots visually, embed them anywhere on your web/mobile apps, and collect results in real-time
-</p>
-
-<p align="center">
-<a href="https://github.com/baptistearno/typebot.io/stargazers"><img src="https://img.shields.io/github/stars/baptistearno/typebot.io" alt="Github Stars"></a>
-</a>
-<a href="https://github.com/baptistearno/typebot.io/pulse"><img src="https://img.shields.io/github/commit-activity/m/baptistearno/typebot.io" alt="Commits per month"></a>
-<a href="https://docs.zazubot.com/self-hosting/guides/docker">
-<img src="https://img.shields.io/docker/pulls/baptistearno/typebot-builder">
-</a>
-<a href="https://github.com/baptistearno/typebot.io/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License">
-<a href="https://status.typebot.io"><img height="20px" src="https://betteruptime.com/status-badges/v1/monitor/a9kf.svg" alt="Uptime"></a>
-<a href="https://github.com/baptisteArno/typebot.io/issues/new?template=bug_report.md"><img src="https://img.shields.io/badge/Report a bug-Github-%231F80C0" alt="Report a bug"></a>
-<a href="https://zazubot.com/discord"><img src="https://img.shields.io/badge/Join community-Discord-%23404EED" alt="Ask a question"></a>
-
+ZazuBot is a platform that enables you to effortlessly create and integrate advanced chatbots into websites and chat platforms like WhatsApp..
 </p>
 
 <h3 align="center">
@@ -30,10 +16,6 @@ Typebot is an Fair Source chatbot builder. It allows you to create advanced chat
   <b><a href="https://docs.zazubot.com/">Docs</a></b>
 
 ---
-
-## Builder demo
-
-https://user-images.githubusercontent.com/16015833/168876388-0310678d-080b-4eca-8633-e5cc4d7bd5d1.mp4
 
 ## Features
 
@@ -97,8 +79,8 @@ Follow the [Local installation](https://docs.zazubot.com/contribute/guides/local
 
 ### Top contributors
 
-<a href="https://github.com/baptistearno/typebot.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=baptistearno/typebot.io" />
+<a href="https://github.com/zazubot/typebot.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zazubot/typebot.io" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
