@@ -47,7 +47,7 @@ export const getInDepthAnalyticsData = authenticatedProcedure
       if (!typebot?.publishedTypebot)
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: "Published typebot not found",
+          message: "Published ZazuBot not found",
         });
 
       const fromDate = parseFromDateFromTimeFilter(timeFilter, timeZone);

@@ -43,7 +43,7 @@ export const getResultExample = authenticatedProcedure
     })) as Pick<Typebot, "groups" | "edges" | "variables" | "events"> | null;
 
     if (!typebot)
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
 
     const { group } = getBlockById(blockId, typebot.groups);
 

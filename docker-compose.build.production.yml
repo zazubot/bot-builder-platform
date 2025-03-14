@@ -12,7 +12,10 @@ services:
       - typebot-builder
       - typebot-viewer
   typebot-builder:
-    image: ahmedkhaled4d/zazubot-builder:latest
+    build:
+      context: .
+      args:
+        - SCOPE=builder
     labels:
       virtual.host: "app.zazubot.com" # change to your domain
       virtual.port: "3000"
@@ -24,7 +27,10 @@ services:
     env_file:
       - .env
   typebot-viewer:
-    image: ahmedkhaled4d/zazubot-viewer:latest
+    build:
+      context: .
+      args:
+        - SCOPE=viewer
     labels:
       virtual.host: "hi.zazubot.com" # change to your domain
       virtual.port: "3000"

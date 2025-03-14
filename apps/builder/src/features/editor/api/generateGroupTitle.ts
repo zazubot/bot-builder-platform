@@ -56,7 +56,7 @@ export const generateGroupTitle = authenticatedProcedure
       if (!typebot || (await isWriteTypebotForbidden(typebot, user)))
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: "Typebot not found",
+          message: "ZazuBot not found",
         });
 
       const groupTitlesAutoGeneration = groupTitlesAutoGenerationSchema.parse(

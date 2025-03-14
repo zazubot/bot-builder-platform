@@ -42,21 +42,7 @@ export const SignInPage = ({ type }: Props) => {
               ? t("auth.signin.heading")
               : t("auth.register.heading")}
           </Heading>
-          {type === "signin" ? (
-            <Text>
-              {t("auth.signin.noAccountLabel.preLink")}{" "}
-              <TextLink href="/register">
-                {t("auth.signin.noAccountLabel.link")}
-              </TextLink>
-            </Text>
-          ) : (
-            <Text>
-              {t("auth.register.alreadyHaveAccountLabel.preLink")}{" "}
-              <TextLink href="/signin">
-                {t("auth.register.alreadyHaveAccountLabel.link")}
-              </TextLink>
-            </Text>
-          )}
+         
         </Stack>
 
         <SignInForm defaultEmail={query.g?.toString()} />

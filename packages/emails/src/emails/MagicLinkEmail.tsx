@@ -57,6 +57,6 @@ export const sendMagicLinkEmail = ({
 }: Pick<SendMailOptions, "to"> & ComponentProps<typeof MagicLinkEmail>) =>
   sendEmail({
     to,
-    subject: "Sign in to Typebot",
+    subject: "Sign in to ZazuBot",
     html: render(<MagicLinkEmail {...props} />).html,
   });

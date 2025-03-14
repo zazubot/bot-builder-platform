@@ -79,7 +79,7 @@ export const getResults = authenticatedProcedure
       },
     });
     if (!typebot || (await isReadTypebotForbidden(typebot, user)))
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
 
     const fromDate = parseFromDateFromTimeFilter(
       input.timeFilter,

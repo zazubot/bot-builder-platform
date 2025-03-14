@@ -49,7 +49,7 @@ export const getCollaborators = authenticatedProcedure
       !existingTypebot?.id ||
       (await isReadTypebotForbidden(existingTypebot, user))
     )
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
 
     return {
       collaborators: existingTypebot.collaborators,

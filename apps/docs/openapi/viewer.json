@@ -6,11 +6,11 @@
   },
   "servers": [
     {
-      "url": "https://typebot.io/api"
+      "url": "https://zazubot.com/api"
     }
   ],
   "externalDocs": {
-    "url": "https://docs.typebot.io/api-reference"
+    "url": "https://docs.zazubot.com/api-reference"
   },
   "paths": {
     "/v1/sendMessage": {
@@ -68,7 +68,7 @@
                                 "type": "string"
                               }
                             ],
-                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.typebot.io/api-reference#how-to-find-my-typebotid))."
+                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.zazubot.com/api-reference#how-to-find-my-typebotid))."
                           },
                           "isPreview": {
                             "type": "boolean",
@@ -81,7 +81,7 @@
                           "prefilledVariables": {
                             "type": "object",
                             "additionalProperties": {},
-                            "description": "[More info about prefilled variables.](https://docs.typebot.io/editor/variables#prefilled-variables)"
+                            "description": "[More info about prefilled variables.](https://docs.zazubot.com/editor/variables#prefilled-variables)"
                           },
                           "isStreamEnabled": {
                             "type": "boolean",
@@ -894,7 +894,7 @@
                                 "type": "string"
                               }
                             ],
-                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.typebot.io/api-reference#how-to-find-my-typebotid))."
+                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.zazubot.com/api-reference#how-to-find-my-typebotid))."
                           },
                           "isPreview": {
                             "type": "boolean",
@@ -907,7 +907,7 @@
                           "prefilledVariables": {
                             "type": "object",
                             "additionalProperties": {},
-                            "description": "[More info about prefilled variables.](https://docs.typebot.io/editor/variables#prefilled-variables)"
+                            "description": "[More info about prefilled variables.](https://docs.zazubot.com/editor/variables#prefilled-variables)"
                           },
                           "isStreamEnabled": {
                             "type": "boolean",
@@ -5258,7 +5258,7 @@
           "updatedAt",
           "workspaceId"
         ],
-        "title": "Typebot V6"
+        "title": "ZazuBot V6"
       },
       "groupV6": {
         "type": "object",
@@ -5581,7 +5581,7 @@
                       "Code": "#/components/schemas/scriptLogic",
                       "Redirect": "#/components/schemas/redirectLogic",
                       "Set variable": "#/components/schemas/setVariableLogic",
-                      "Typebot link": "#/components/schemas/typebotLinkLogic",
+                      "ZazuBot link": "#/components/schemas/typebotLinkLogic",
                       "Wait": "#/components/schemas/waitLogic",
                       "Jump": "#/components/schemas/jumpLogic",
                       "Condition": "#/components/schemas/conditionLogic",
@@ -7543,7 +7543,7 @@
           "type": {
             "type": "string",
             "enum": [
-              "Typebot link"
+              "ZazuBot link"
             ]
           },
           "options": {
@@ -7565,7 +7565,7 @@
           "id",
           "type"
         ],
-        "title": "Typebot link"
+        "title": "ZazuBot link"
       },
       "waitLogic": {
         "type": "object",
@@ -15435,7 +15435,7 @@
           "updatedAt",
           "workspaceId"
         ],
-        "title": "Typebot V5"
+        "title": "ZazuBot V5"
       },
       "buttonsInputV5": {
         "type": "object",

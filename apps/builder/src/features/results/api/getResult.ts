@@ -62,7 +62,7 @@ export const getResult = authenticatedProcedure
       },
     });
     if (!typebot || (await isReadTypebotForbidden(typebot, user)))
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
     const results = await prisma.result.findMany({
       where: {
         id: input.resultId,

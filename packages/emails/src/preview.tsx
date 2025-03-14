@@ -22,7 +22,7 @@ const createHtmlFile = () => {
       <GuestInvitationEmail
         workspaceName={"Typebot"}
         typebotName={"Lead Generation"}
-        url={"https://app.typebot.io"}
+        url={"https://app.zazubot.com"}
         hostEmail={"host@typebot.io"}
         guestEmail={"guest@typebot.io"}
       />,
@@ -33,7 +33,7 @@ const createHtmlFile = () => {
     render(
       <WorkspaceMemberInvitation
         workspaceName={"Typebot"}
-        url={"https://app.typebot.io"}
+        url={"https://app.zazubot.com"}
         hostEmail={"host@typebot.io"}
         guestEmail={"guest@typebot.io"}
       />,
@@ -53,7 +53,7 @@ const createHtmlFile = () => {
     path.resolve(__dirname, "dist", "defaultBotNotification.html"),
     render(
       <DefaultBotNotificationEmail
-        resultsUrl={"https://app.typebot.io"}
+        resultsUrl={"https://app.zazubot.com"}
         answers={{
           "Group #1": "Answer #1",
           Name: "Baptiste",
@@ -64,7 +64,7 @@ const createHtmlFile = () => {
   );
   fs.writeFileSync(
     path.resolve(__dirname, "dist", "magicLink.html"),
-    render(<MagicLinkEmail url={"https://app.typebot.io"} />).html,
+    render(<MagicLinkEmail url={"https://app.zazubot.com"} />).html,
   );
 };
 

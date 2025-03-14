@@ -66,7 +66,7 @@ export const getTypebot = publicProcedure
       )
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: "Typebot not found",
+          message: "ZazuBot not found",
         });
 
       try {

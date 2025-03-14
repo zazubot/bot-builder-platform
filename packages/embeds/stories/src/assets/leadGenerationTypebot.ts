@@ -36,27 +36,21 @@ export const leadGenerationTypebot: StartTypebot = {
           id: "sc1y8VwDabNJgiVTBi4qtif",
           type: BubbleBlockType.TEXT,
           content: {
-            html: '<div>Welcome to <span class="slate-bold">AA</span> (Awesome Agency)</div>',
+            html: '<div>Welcome to <span class="slate-bold">ZazuBot</span> (Build faster, Chat smarter)</div>',
             richText: [
               {
                 type: "p",
                 children: [
                   { text: "Welcome to " },
-                  { bold: true, text: "AA" },
-                  { text: " (Awesome Agency)" },
+                  { bold: true, text: "ZazuBot" },
+                  { text: " (Build faster, Chat smarter)" },
                 ],
               },
             ],
-            plainText: "Welcome to AA (Awesome Agency)",
+            plainText: "Welcome to ZazuBot is a platform that enables you to effortlessly create and integrate advanced chatbots into websites and chat platforms like WhatsApp.",
           },
         },
-        {
-          id: "s7YqZTBeyCa4Hp3wN2j922c",
-          type: BubbleBlockType.IMAGE,
-          content: {
-            url: "https://media2.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=fe3852a3ihg8rvipzzky5lybmdyq38fhke2tkrnshwk52c7d&rid=giphy.gif&ct=g",
-          },
-        },
+  
         {
           id: "sbjZWLJGVkHAkDqS4JQeGow",
           type: InputBlockType.CHOICE,

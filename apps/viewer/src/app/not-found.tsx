@@ -21,12 +21,12 @@ export default function NotFound() {
           alignItems: "center",
         }}
       >
-        <a href="https://typebot.io" style={{ color: "inherit" }}>
-          <TypebotLogo style={{ fontSize: "32px" }} />
+        <a href="https://zazubot.com" style={{ color: "inherit" }}>
+          <TypebotLogo  />
         </a>
 
         <h1 style={{ margin: 0, fontSize: "24px", fontWeight: "normal" }}>
-          The bot you're looking for doesn't exist
+          Opps! Zazubot you're looking for doesn't exist
         </h1>
       </div>
     </div>
