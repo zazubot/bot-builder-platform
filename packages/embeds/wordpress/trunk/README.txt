@@ -102,7 +102,7 @@ This plugin relies on Typebot which is a tool that allows you to create conversa
 * Fix flow not proceeding on unknown domains
 
 = 3.0.0 =
-* Complete rework of the plugin. You are now required to generate a code snippet on https://app.typebot.io
+* Complete rework of the plugin. You are now required to generate a code snippet on https://app.zazubot.com
 
 = 2.1.9 =
 * Fix standard embed when window is already loaded
@@ -156,7 +156,7 @@ This plugin relies on Typebot which is a tool that allows you to create conversa
 * Add `url` option to shortcodes in order to add multiple typebots on the same page.
 
 = 1.3.0 =
-* Adding wordpress user variables support. More info here: http://docs.typebot.io/embed/wordpress#personalize-user-experience-hidden-variables
+* Adding wordpress user variables support. More info here: http://docs.zazubot.com/embed/wordpress#personalize-user-experience-hidden-variables
 
 = 1.2.3 =
 * Add "Don't show message when opened or closed once" option

@@ -72,7 +72,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         groups: true,
       },
     });
-    if (!typebot) return res.status(404).send({ message: "Typebot not found" });
+    if (!typebot) return res.status(404).send({ message: "ZazuBot not found" });
     const groups = parseGroups(typebot.groups, {
       typebotVersion: typebot.version,
     }).map((group) => {

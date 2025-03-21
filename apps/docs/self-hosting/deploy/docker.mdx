@@ -4,7 +4,7 @@ title: Docker
 
 <Info>
   The easiest way to get started with Typebot is with [the official managed
-  service in the Cloud](https://app.typebot.io). You'll have high availability,
+  service in the Cloud](https://app.zazubot.com). You'll have high availability,
   backups, security, and maintenance all managed for you by me, Baptiste,
   Typebot's founder. The cloud version can save a substantial amount of
   developer time and resources. For most sites this ends up being the best value
@@ -91,7 +91,7 @@ Typebot is updated regularly, but it is up to you to apply these updates on your
     docker-compose up -d
    ```
 
-The self-hosted version is somewhat of a LTS, only getting the changes (~ once per month) after they have been battle tested on the cloud version. If you want features as soon as they are available, consider becoming a [cloud user](https://app.typebot.io).
+The self-hosted version is somewhat of a LTS, only getting the changes (~ once per month) after they have been battle tested on the cloud version. If you want features as soon as they are available, consider becoming a [cloud user](https://app.zazubot.com).
 
 ## Optional extras
 
@@ -194,7 +194,7 @@ services:
     image: minio/minio
     command: server /data
     ports:
-      - '9000:9000'
+      - "9000:9000"
     environment:
       MINIO_ROOT_USER: minio
       MINIO_ROOT_PASSWORD: minio123
@@ -278,7 +278,7 @@ services:
     restart: always
     extra_hosts:
       - 'host.docker.internal:host-gateway'
-    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    # See https://docs.zazubot.com/self-hosting/configuration for more configuration options
     env_file:
       - .env
   typebot-viewer:
@@ -294,7 +294,7 @@ services:
       typebot-db:
         condition: service_healthy
     restart: always
-    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    # See https://docs.zazubot.com/self-hosting/configuration for more configuration options
     env_file:
       - .env
   mail:
@@ -375,6 +375,7 @@ services:
     networks:
       - typebot_network
 ```
+
 When deploying the stack, Portainer will automatically create the network with the correct settings. This prevents hostname resolution issues after migration.
 
 <Note>

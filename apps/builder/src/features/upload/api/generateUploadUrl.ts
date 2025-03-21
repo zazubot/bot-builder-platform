@@ -161,7 +161,7 @@ const parseFilePath = async ({
   )
     throw new TRPCError({
       code: "NOT_FOUND",
-      message: "Typebot not found",
+      message: "ZazuBot not found",
     });
   if (!("blockId" in input)) {
     return `public/workspaces/${input.workspaceId}/typebots/${input.typebotId}/${input.fileName}`;

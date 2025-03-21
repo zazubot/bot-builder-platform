@@ -76,7 +76,7 @@ const inspectTypebot = async () => {
     return;
   }
 
-  console.log(`https://app.typebot.io/typebots/${typebot.id}/edit`);
+  console.log(`https://app.zazubot.com/typebots/${typebot.id}/edit`);
 
   console.log(JSON.stringify(typebot, null, 2));
 };

@@ -3,7 +3,7 @@ import Cors from "micro-cors";
 import type { RequestHandler } from "next/dist/server/next";
 
 const cors = Cors({
-  allowMethods: ["POST", "HEAD"],
+  allowMethods: ["POST", "HEAD", "GET"],
 });
 
 export const config = {

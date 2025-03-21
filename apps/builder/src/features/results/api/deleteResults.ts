@@ -63,7 +63,7 @@ export const deleteResults = authenticatedProcedure
       },
     });
     if (!typebot || (await isWriteTypebotForbidden(typebot, user)))
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
     const { success } = await archiveResults(prisma)({
       typebot: {
         id: typebotId,
@@ -79,6 +79,6 @@ export const deleteResults = authenticatedProcedure
     if (!success)
       throw new TRPCError({
         code: "NOT_FOUND",
-        message: "Typebot not found",
+        message: "ZazuBot not found",
       });
   });

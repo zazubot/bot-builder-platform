@@ -4,14 +4,13 @@ services:
     restart: always
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - /home/ubuntu/zazubot/.typebot/caddy-certificates:/data/caddy
+      - /home/ubuntu/docker-cache/.typebot/caddy-certificates:/data/caddy
     ports:
       - "80:80"
       - "443:443"
     depends_on:
       - typebot-builder
       - typebot-viewer
-
   typebot-builder:
     build:
       context: .
@@ -20,11 +19,11 @@ services:
     labels:
       virtual.host: "app.zazubot.com" # change to your domain
       virtual.port: "3000"
-      virtual.tls-email: "admin@example.com" # change to your email
+      virtual.tls-email: "info@zazubot.com" # change to your email
     restart: always
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    # See https://docs.zazubot.com/self-hosting/configuration for more configuration options
     env_file:
       - .env
   typebot-viewer:
@@ -40,7 +39,7 @@ services:
       virtual.proxy.directives: |
         flush_interval -1
     restart: always
-    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    # See https://docs.zazubot.com/self-hosting/configuration for more configuration options
     env_file:
       - .env
   mail:

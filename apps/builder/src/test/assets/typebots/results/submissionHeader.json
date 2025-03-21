@@ -2,7 +2,7 @@
   "id": "8hASqMTjwFVzB32vRcVND5",
   "createdAt": "2022-02-05T06:21:16.522Z",
   "updatedAt": "2022-02-05T06:21:16.522Z",
-  "name": "My typebot",
+  "name": "My zazubot",
   "folderId": null,
   "groups": [
     {
@@ -32,7 +32,7 @@
                 "type": "p",
                 "children": [
                   { "text": "Welcome to " },
-                  { "bold": true, "text": "AA" },
+                  { "bold": true, "text": "ZazuBot" },
                   { "text": " (Awesome Agency)" }
                 ]
               }
@@ -44,7 +44,7 @@
           "type": "image",
           "groupId": "kinRXxYop2X4d7F9qt8WNB",
           "content": {
-            "url": "https://media2.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=fe3852a3ihg8rvipzzky5lybmdyq38fhke2tkrnshwk52c7d&rid=giphy.gif&ct=g"
+            "url": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODZzbzRwbzJvN3FobXEweHQ1YXM1ejA0bzZ6Mmt0YW85emgxOGVyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13LsjT2ZMb21BC/giphy.gif"
           }
         },
         {

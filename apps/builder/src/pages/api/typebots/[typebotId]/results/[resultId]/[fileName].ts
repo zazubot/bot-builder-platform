@@ -50,7 +50,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     if (!typebot?.workspace || (await isReadTypebotForbidden(typebot, user)))
       return notFound(res, "Workspace not found");
 
-    if (!typebot) return notFound(res, "Typebot not found");
+    if (!typebot) return notFound(res, "ZazuBot not found");
 
     const tmpUrl = await getFileTempUrl({
       key: `private/workspaces/${typebot.workspace.id}/typebots/${typebotId}/results/${resultId}/${fileName}`,

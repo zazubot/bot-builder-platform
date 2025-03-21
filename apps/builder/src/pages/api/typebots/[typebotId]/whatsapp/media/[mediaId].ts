@@ -44,7 +44,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     if (!typebot?.workspace || isReadWorkspaceFobidden(typebot.workspace, user))
       return notFound(res, "Workspace not found");
 
-    if (!typebot) return notFound(res, "Typebot not found");
+    if (!typebot) return notFound(res, "ZazuBot not found");
 
     const mediaId = req.query.mediaId as string;
     const credentialsId = typebot.whatsAppCredentialsId;

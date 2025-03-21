@@ -65,7 +65,7 @@ export const deleteTypebot = authenticatedProcedure
       !existingTypebot?.id ||
       (await isWriteTypebotForbidden(existingTypebot, user))
     )
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
 
     const { success } = await archiveResults(prisma)({
       typebot: {

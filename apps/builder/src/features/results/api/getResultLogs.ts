@@ -53,7 +53,7 @@ export const getResultLogs = authenticatedProcedure
       },
     });
     if (!typebot || (await isReadTypebotForbidden(typebot, user)))
-      throw new Error("Typebot not found");
+      throw new Error("ZazuBot not found");
     const logs = await prisma.log.findMany({
       where: {
         resultId,

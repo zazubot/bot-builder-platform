@@ -80,7 +80,7 @@ export const startWhatsAppPreview = authenticatedProcedure
       !existingTypebot?.id ||
       (await isReadTypebotForbidden(existingTypebot, user))
     )
-      throw new TRPCError({ code: "NOT_FOUND", message: "Typebot not found" });
+      throw new TRPCError({ code: "NOT_FOUND", message: "ZazuBot not found" });
 
     const sessionId = `wa-preview-${to}`;
 
