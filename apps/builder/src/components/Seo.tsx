@@ -11,7 +11,7 @@ const getOrigin = () => {
 
 export const Seo = ({
   title,
-  description = "Create and publish conversational forms that collect 4 times more answers and feel native to your product",
+  description = "Design and deploy interactive forms that capture 4x more responses while seamlessly integrating with your product experience.",
   imagePreviewUrl = `${getOrigin()}/images/og.png`,
 }: {
   title: string;
