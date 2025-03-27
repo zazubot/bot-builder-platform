@@ -41,7 +41,7 @@ test.describe("Payment input block", () => {
     await page.getByLabel("Price amount:").fill("30");
     await page.selectOption("select", "EUR");
     await page.click("text=Additional information");
-    await page.fill('[placeholder="John Smith"]', "Baptiste");
+    await page.fill('[placeholder="Ahmed Khaled"]', "Baptiste");
     await page.fill('[placeholder="john@gmail.com"]', "test@typebot.io");
     await expect(page.locator('text="Phone number:"')).toBeVisible();
 
