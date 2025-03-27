@@ -191,7 +191,7 @@ export const PaymentSettings = ({ options, onOptionsChange }: Props) => {
               )}
               defaultValue={options?.additionalInformation?.name}
               onChange={updateName}
-              placeholder="John Smith"
+              placeholder="Ahmed Khaled"
             />
             <TextInput
               label={t(

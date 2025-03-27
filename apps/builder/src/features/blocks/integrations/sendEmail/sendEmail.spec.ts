@@ -32,7 +32,7 @@ test.describe("Send email block", () => {
       '[placeholder="notifications@provider.com"]',
       env.SMTP_USERNAME,
     );
-    await page.fill('[placeholder="John Smith"]', "John Smith");
+    await page.fill('[placeholder="Ahmed Khaled"]', "Ahmed Khaled");
     await page.fill('[placeholder="mail.provider.com"]', env.SMTP_HOST);
     await page.getByLabel("Username").fill(env.SMTP_USERNAME);
     await page.fill('[type="password"]', env.SMTP_PASSWORD);

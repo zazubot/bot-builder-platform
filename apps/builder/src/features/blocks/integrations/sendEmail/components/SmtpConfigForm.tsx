@@ -47,7 +47,7 @@ export const SmtpConfigForm = ({ config, onConfigChange }: Props) => {
         label="From name"
         defaultValue={config?.from.name}
         onChange={handleFromNameChange}
-        placeholder="John Smith"
+        placeholder="Ahmed Khaled"
         withVariableButton={false}
         isDisabled={!config}
       />
