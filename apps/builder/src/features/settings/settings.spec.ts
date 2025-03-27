@@ -37,10 +37,10 @@ test.describe
         });
         await page.goto(`/typebots/${typebotId}/settings`);
         await expect(
-          page.locator('a:has-text("Made with Typebot")'),
+          page.locator('a:has-text("Made with ZazuBot")'),
         ).toHaveAttribute(
           "href",
-          "https://www.typebot.io/?utm_source=litebadge",
+          "https://www.zazubot.com/?utm_source=litebadge",
         );
         await page.click('button:has-text("Typing")');
         await page.fill('[data-testid="speed"] input', "350");

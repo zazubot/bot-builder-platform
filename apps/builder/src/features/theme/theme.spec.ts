@@ -29,14 +29,14 @@ test.describe
         // Branding
         await page.getByRole("button", { name: "Global" }).click();
         await expect(
-          page.locator('a:has-text("Made with Typebot")'),
+          page.locator('a:has-text("Made with ZazuBot")'),
         ).toHaveAttribute(
           "href",
-          "https://www.typebot.io/?utm_source=litebadge",
+          "https://www.zazubot.com/?utm_source=litebadge",
         );
-        await page.click('text="Show Typebot brand"');
+        await page.click('text="Show ZazuBot brand"');
         await expect(
-          page.locator('a:has-text("Made with Typebot")'),
+          page.locator('a:has-text("Made with ZazuBot")'),
         ).toBeHidden();
 
         // Font
@@ -273,7 +273,7 @@ test.describe
         await page.getByRole("menuitem", { name: "Delete" }).click();
         await expect(page.getByText("My awesome theme 2")).toBeHidden();
         await page.getByRole("button", { name: "Gallery" }).click();
-        await page.getByText("Typebot Dark", { exact: true }).click();
+        await page.getByText("ZazuBot Dark", { exact: true }).click();
         await expect(page.getByTestId("host-bubble")).toHaveCSS(
           "background-color",
           "rgb(13, 13, 13)",
@@ -295,7 +295,7 @@ test.describe("Free workspace", () => {
     await expect(
       page.locator('[data-testid="starter-lock-tag"]'),
     ).toBeVisible();
-    await page.click("text=Show Typebot brand");
+    await page.click("text=Show ZazuBot brand");
     await expect(
       page.locator(
         'text="You need to upgrade your plan in order to remove branding"',
