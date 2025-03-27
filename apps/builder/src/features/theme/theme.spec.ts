@@ -32,7 +32,7 @@ test.describe
           page.locator('a:has-text("Made with ZazuBot")'),
         ).toHaveAttribute(
           "href",
-          "https://www.zazubot.com/?utm_source=litebadge",
+          "https://zazubot.com/?utm_source=litebadge",
         );
         await page.click('text="Show ZazuBot brand"');
         await expect(

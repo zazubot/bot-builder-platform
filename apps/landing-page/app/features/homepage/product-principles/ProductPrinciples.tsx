@@ -25,7 +25,7 @@ const data = [
   {
     title: "Made with love for developers ",
     content:
-      "Typebot is 100% open source, built with a passion for empowering developers. Our active community shares bots and features, contributing to a rich ecosystem of innovation and collaboration. Join us in shaping the future of conversational tools.",
+      " Our active community shares bots and features, contributing to a rich ecosystem of innovation and collaboration. Join us in shaping the future of conversational tools.",
   },
   {
     title: "Continuously evolving technology",

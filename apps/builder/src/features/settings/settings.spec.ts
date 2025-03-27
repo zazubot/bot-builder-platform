@@ -40,7 +40,7 @@ test.describe
           page.locator('a:has-text("Made with ZazuBot")'),
         ).toHaveAttribute(
           "href",
-          "https://www.zazubot.com/?utm_source=litebadge",
+          "https://zazubot.com/?utm_source=litebadge",
         );
         await page.click('button:has-text("Typing")');
         await page.fill('[data-testid="speed"] input', "350");
