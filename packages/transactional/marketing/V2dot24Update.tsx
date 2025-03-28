@@ -33,14 +33,14 @@ const imagesBaseUrl = `${env.NEXTAUTH_URL}/images/emails/V2dot24Update`;
 export const V2dot24Update = ({}: Props) => (
   <Html>
     <Head />
-    <Preview>Unveiling Typebot's Latest Innovations - v2.24 Update! 🌟</Preview>
+    <Preview>Unveiling ZazuBot's Latest Innovations - v2.24 Update! 🌟</Preview>
     <Body style={main}>
       <Container style={container}>
         <Img
           src={`${env.NEXTAUTH_URL}/images/logo.png`}
           width="32"
           height="32"
-          alt="Typebot's Logo"
+          alt="ZazuBot's Logo"
           style={{
             margin: "24px 0",
           }}
@@ -48,7 +48,7 @@ export const V2dot24Update = ({}: Props) => (
         <Text style={text}>
           Hey, <br />
           <br />
-          Typebot v2.24 was just released. This update introduces powerful new
+          ZazuBotv2.24 was just released. This update introduces powerful new
           blocks and improved tool stability.
           <br />
           <br />
@@ -117,12 +117,12 @@ export const V2dot24Update = ({}: Props) => (
           </Heading>
           <Text style={text}>
             We all hate bugs, right? Well, this month I've decided to fixing
-            literaly all of the known issues and reported bugs to make Typebot
+            literaly all of the known issues and reported bugs to make ZazuBot
             more reliable.
             <br />
             <br />
             And from now on I've decided to always focus fixing newly reported
-            bugs. That's that kind of standard I want to set for Typebot.
+            bugs. That's that kind of standard I want to set for ZazuBot.
             <br />
             <br />
             Check out the full changelog{" "}
@@ -146,13 +146,13 @@ export const V2dot24Update = ({}: Props) => (
           src={`${env.NEXTAUTH_URL}/images/logo.png`}
           width="32"
           height="32"
-          alt="Typebot's Logo"
+          alt="ZazuBot's Logo"
           style={{
             marginTop: "24px",
           }}
         />
 
-        <Text style={footer}>Typebot.io - Powering Conversations at Scale</Text>
+        <Text style={footer}>ZazuBot.io - Powering Conversations at Scale</Text>
         <Link
           href="{{unsubscribe}}"
           target="_blank"
