@@ -34,7 +34,7 @@ const imagesBaseUrl = `${env.NEXTAUTH_URL}/images/emails/V2dot22Update`;
 export const V2dot22Update = ({}: Props) => (
   <Html>
     <Head />
-    <Preview>January hottest new features on Typebot 🔥</Preview>
+    <Preview>January hottest new features on ZazuBot🔥</Preview>
     <Body style={main}>
       <Container style={container}>
         <Img
@@ -109,7 +109,7 @@ export const V2dot22Update = ({}: Props) => (
             <br />
             <br />
             <span style={{ fontWeight: "bold" }}>Dify.AI</span>: craft your own
-            AI agent on Dify and consume it directly on Typebot to have the best
+            AI agent on Dify and consume it directly on ZazuBotto have the best
             of both worlds.
           </Text>
           <Img

@@ -207,13 +207,13 @@ const startTypebotPick = {
   workspaceId: true,
 } as const;
 const startTypebotV5Schema = typebotV5Schema.pick(startTypebotPick).openapi({
-  title: "Typebot V5",
+  title: "ZazuBotV5",
   ref: "typebotV5",
 });
 type StartTypebotV5 = z.infer<typeof startTypebotV5Schema>;
 
 const startTypebotV6Schema = typebotV6Schema.pick(startTypebotPick).openapi({
-  title: "Typebot V6",
+  title: "ZazuBotV6",
   ref: "typebotV6",
 });
 export type StartTypebotV6 = z.infer<typeof startTypebotV6Schema>;

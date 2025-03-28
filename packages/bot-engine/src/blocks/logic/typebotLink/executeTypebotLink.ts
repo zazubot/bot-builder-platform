@@ -45,7 +45,7 @@ export const executeTypebotLink = async (
       logs.push({
         status: "error",
         description: `Failed to link typebot`,
-        details: `Typebot with ID ${block.options?.typebotId} not found`,
+        details: `ZazuBot with ID ${block.options?.typebotId} not found`,
       });
       return { outgoingEdgeId: block.outgoingEdgeId, logs };
     }

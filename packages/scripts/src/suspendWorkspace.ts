@@ -9,8 +9,8 @@ const suspendWorkspace = async () => {
   const type = await select<any, "id" | "publicId" | "workspaceId">({
     message: "Select way",
     options: [
-      { label: "Typebot ID", value: "id" },
-      { label: "Typebot public ID", value: "publicId" },
+      { label: "ZazuBot ID", value: "id" },
+      { label: "ZazuBot public ID", value: "publicId" },
       { label: "Workspace ID", value: "workspaceId" },
     ],
   });
@@ -36,7 +36,7 @@ const suspendWorkspace = async () => {
     });
 
     if (!typebot) {
-      console.log("Typebot not found");
+      console.log("ZazuBot not found");
       return;
     }
 

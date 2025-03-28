@@ -16,7 +16,7 @@ export const typebotLinkBlockSchema = blockBaseSchema
     }),
   )
   .openapi({
-    title: "Typebot link",
+    title: "ZazuBotlink",
     ref: "typebotLinkLogic",
   });
 

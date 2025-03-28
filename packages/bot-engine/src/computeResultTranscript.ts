@@ -140,7 +140,7 @@ const executeGroup = ({
       return currentTranscript;
     if (stopAtBlockId && block.id === stopAtBlockId) return currentTranscript;
     const typebot = typebotsQueue[0]?.typebot;
-    if (!typebot) throw new Error("Typebot not found in session");
+    if (!typebot) throw new Error("ZazuBot not found in session");
     if (setVariableHistory.at(0)?.blockId === block.id)
       typebot.variables = applySetVariable(setVariableHistory.shift(), typebot);
     let nextEdgeId = block.outgoingEdgeId;
