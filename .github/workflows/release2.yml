@@ -1,8 +1,8 @@
 name: Release new zazubot version
 
-on:
-  push:
-    tags: ["v*", "next"]
+push:
+  branches:
+    - latest
 
 jobs:
   build-amd:
